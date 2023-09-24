@@ -1,0 +1,15 @@
+{
+    "batch_size": 64,
+    "dropout_prob": 0.2,
+    "num_features": 9,
+    "num_attn_heads": 8,
+    "embedding_size": 64,
+    "use_batch_norm": false,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "scheduler_gamma": 0.99,
+    "num_epochs": 200,
+    "pos_class_weight": 2.5,
+    "problem_type": "classification",
+    "logging_frequency": 20
+}
