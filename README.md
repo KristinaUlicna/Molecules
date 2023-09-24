@@ -33,7 +33,7 @@ In this repository, I'm predicting active compounds which have their pIC50 > 8.0
 ## Run & installation 🏃‍♀️
 
 ```sh
-conda 
+conda env create -f environment.yaml
 ```
 
 To run the pipeline, navigate into the `pipeline.ipynb` and run the [notebook](`./pipeline.ipynb`).
