@@ -16,7 +16,6 @@ def prepare_cdf(
 def plot_distributions(
     pIC50_values: list[list[float]], 
     **kwargs
-    # figsize: tuple[int] = (10, 3)
 ) -> None:
     """Plot the histogram & CDF of train, (valid) and test set logD values."""
     fig, axes = plt.subplots(1, 2, **kwargs)
